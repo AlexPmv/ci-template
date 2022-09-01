@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest --coverage",
-    "lint": "eslint .",
-    "build": "babel src/index.js -d dist"
+    "lint": "eslint ."
   },
   "repository": {
     "type": "git",
@@ -21,6 +20,7 @@
   "devDependencies": {
     "@babel/cli": "^7.18.10",
     "@babel/core": "^7.18.13",
+    "@babel/eslint-parser": "^7.18.9",
     "@babel/preset-env": "^7.18.10",
     "babel-jest": "^29.0.1",
     "eslint": "^8.23.0",
